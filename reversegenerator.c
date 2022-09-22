@@ -5,15 +5,16 @@
 
 int main(void)
 {
-    int num, i;
+    int num = 0, i;
     srand(time(NULL));  // Seed ONCE
     int arr[2000];
 
-    for(i=0; i<2000; ++i) // Loop 100 times for random numbers
-    {
-        num = rand();
-        arr[i] = num;
+    for(i=1999; i>=0; --i) 
+    {   
+        arr[i] = i;
         printf("%d  ", arr[i]);
+        ++num;
     }
+    printf("counter = %d \n", num);
 }
 

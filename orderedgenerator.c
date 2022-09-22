@@ -10,9 +10,8 @@ int main(void)
     int arr[2000];
 
     for(i=0; i<2000; ++i) // Loop 100 times for random numbers
-    {
-        num = rand();
-        arr[i] = num;
+    {   
+        arr[i] = i;
         printf("%d  ", arr[i]);
     }
 }
