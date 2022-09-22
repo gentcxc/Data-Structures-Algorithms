@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    int num, i;
+    int count = 0, i;
     srand(time(NULL));  // Seed ONCE
     int arr[2000];
 
@@ -13,6 +13,8 @@ int main(void)
     {   
         arr[i] = i;
         printf("%d  ", arr[i]);
+        ++count;
     }
+    printf("\n \n %d ints generated \n \n", count);
 }
 
