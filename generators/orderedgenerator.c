@@ -12,7 +12,7 @@ int main(void)
     for(i=0; i<2000; ++i) // Loop 100 times for random numbers
     {   
         arr[i] = i;
-        printf("%d  ", arr[i]);
+        printf("%d\n", arr[i]);
         ++count;
     }
     printf("\n \n %d ints generated \n \n", count);

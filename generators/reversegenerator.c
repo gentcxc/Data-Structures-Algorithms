@@ -12,7 +12,7 @@ int main(void)
     for(i=1999; i>=0; --i) 
     {   
         arr[i] = i;
-        printf("%d  ", arr[i]);
+        printf("%d\n", arr[i]);
         ++num;
     }
     printf("counter = %d \n", num);

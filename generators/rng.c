@@ -13,7 +13,7 @@ int main(void)
     {
         num = rand();
         arr[i] = num;
-        printf("%d  ", arr[i]);
+        printf("%d\n", arr[i]);
     }
 }
 
