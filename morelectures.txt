@@ -1,0 +1,5 @@
+Additive Lectures for repetition or understanding.
+
+
+MIT:Big O Lecture by Professor Grimson
+    https://www.youtube.com/watch?v=o9nW0uBqvEo
