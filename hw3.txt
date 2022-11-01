@@ -33,7 +33,9 @@ public class infixtopostfix
 		}
 		public char pop()
 		{
-			
+            char n = stackA[top];
+            top--;
+            return n;
 		}
 		public char ontop()						//shows the character on top of stack
 		{
