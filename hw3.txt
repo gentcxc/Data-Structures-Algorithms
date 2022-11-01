@@ -1,0 +1,48 @@
+package hw3;
+
+public class infixtopostfix 
+{
+
+	public static void main(String[] args) 
+	{
+		String example = "4*7/2+3*4-11";		//This will be our test expression
+		String examplefin;						//test expression converted to postfix
+		
+	}
+
+	class Stack 								//implement stack ADT using array
+	{
+		private int size;						//determines array size 
+		private char[] stackA;    				//Array of chararacters
+		private int top;						//top of stack variable
+		
+		public Stack(int n)
+		{
+			size = n;							//get desired array size
+			stackA = new char[size];			//create array of "size" size
+			top = -1;							//set top to before first element
+		}
+		
+		public boolean empty()
+		{
+			return (top == -1); 				//when top is equal to -1, stack is empty
+		}
+		public void push(char n)
+		{
+			stackA[++top] = n;					//++top to first element, change what is contains to n
+		}
+		public char pop()
+		{
+			
+		}
+		public char ontop()						//shows the character on top of stack
+		{
+			return stackA[top];					//return top char
+		}
+		public int size()						//shows size of stack array
+		{
+			return size;						//return size int
+		}
+	}
+}
+
